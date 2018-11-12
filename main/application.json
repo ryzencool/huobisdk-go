@@ -1,0 +1,96 @@
+{
+  "accessID": "please instead of your accesskey",  
+  "secretKey": "please instead of your secretkey",
+  "Host": "api.huobi.pro",
+  "match": [
+    {
+      "symbol": "please instead your symbol",
+      "limit": 100000,
+      "strategy": {
+        "day": {
+          "normal": [
+            {
+              "amountMin": 1,
+              "amountMax": 3,
+              "interval": 7
+            },
+            {
+              "amountMin": 2,
+              "amountMax": 4,
+              "interval": 7
+            }
+          ],
+          "special": [
+            {
+              "amountMin": 3,
+              "amountMax": 5,
+              "interval": 150
+            },
+            {
+              "amountMin": 4,
+              "amountMax": 6,
+              "interval": 300
+            }
+          ]
+        },
+        "night": {
+          "normal": [
+            {
+              "amountMin": 5,
+              "amountMax": 7,
+              "interval": 7
+            },
+            {
+              "amountMin": 6,
+              "amountMax": 8,
+              "interval": 7
+            }
+          ],
+          "special": [
+            {
+              "amountMin": 7,
+              "amountMax": 9,
+              "interval": 150
+            },
+            {
+              "amountMin": 8,
+              "amountMax": 10,
+              "interval": 300
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "place": [
+    {
+      "symbol": "please instead with your symbols",
+      "step": [
+        {
+          "flagStart": 1,
+          "flagEnd": 5,
+          "amountMin": 3000,
+          "amountMax": 10000
+        },
+        {
+          "flagStart": 6,
+          "flagEnd": 10,
+          "amountMin": 5000,
+          "amountMax": 20000
+        },
+        {
+          "flagStart": 11,
+          "flagEnd": 15,
+          "amountMin": 10000,
+          "amountMax": 30000
+        },
+        {
+          "flagStart": 16,
+          "flagEnd": 20,
+          "amountMin": 15000,
+          "amountMax": 50000
+        }
+      ]
+    }
+  ]
+}
