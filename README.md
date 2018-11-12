@@ -15,7 +15,7 @@ huobi provides a doc but exclude golang's implementation, this package is implem
 
 ### Use
 1. go get github.com/ryzencool/huobisdk-go
-write your configuration of  virtual coin symbols into application.json and run the main.go
+2. write your configuration of  virtual coin symbols into application.json and run the main.go
 
 ### Plan
 1. integrate some other exchange api
